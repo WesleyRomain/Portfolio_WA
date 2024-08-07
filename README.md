@@ -6,21 +6,25 @@ In deze maak ik dus een hybride vorm van de opdracht die wordt verwacht van het 
 
 Ik splits telkens het project per hoofdstuk op in wat ik met HTML, CSS en JS heb gedaan (indien speciaal) + ik voeg ook de bronnen toe die ik heb gebruikt.
 
-Hoofdstuk 1
+## Inhoudsopgave
+1. Hoofstuk 1: Medailletabel Olympische Spelen
+2. Hoofdstuk 2: Rekensommetjes
+
+## Hoofdstuk 1: Medailletabel olympische Spelen
 
 De bedoeling is om een medailletabel te construeren van de Olympische Spelen Parijs 2024.
 
-HTML
+### HTML
 
 Een image toegevoegd. Voor de rest is de HTML code vrij normaal.
 
-CSS
+### CSS
 
 In mijn CSS heb ik twee "moeilijkheden" toegevoegd:
 1. Het gebruik van een Google Font.
 2. Een achtergrondafbeelding (van het web gehaald, zie ook HTML ).
 
-JS
+### JS
 
 Element geselecteerd uit HTML: lijn 13
 
@@ -32,7 +36,7 @@ Template literals: bij het toevoegen van nieuwe cellen in mijn rij: lijn 33
 
 Manipulatie van elementen (stukje code voor rows toe te voegen)
 
-Bronnen
+### Bronnen
 
 Cursus Web Essentials
 
@@ -44,21 +48,21 @@ https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_
 
 https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
 
-Hoofdstuk 2
+## Hoofdstuk 2: Rekensommetjes
 
 Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
 
 Het hoofdstuk was ook vrij kort, dus ik heb een "korte" oefening gemaakt.
 
-HTML
+### HTML
 
 Gewerkt met span om textcontent in de elementen te brengen.
 
-CSS
+### CSS
 
 Background toegevoegd, voor de rest niets speciaal
 
-JS
+### JS
 
 Eerste drie arrow functies gedeclareerd zonder body syntax (geeft direct return statement: lijn 3-5).
 
@@ -66,7 +70,7 @@ Ook default waarden meegegeven indien geen getal wordt opgegeven.
 
 Laatste arrowfunctie gedeclareerd mét bodysyntax. Er kan immers een fout optreden indien gedeeld wordt door 0.
 
-Bronnen
+### Bronnen
 
 Cursus Web Essentials
 
