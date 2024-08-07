@@ -5,10 +5,10 @@ In deze maak ik dus een hybride vorm van de opdracht die wordt verwacht van het 
 
 Ik splits telkens het project per hoofdstuk op in wat ik met HTML, CSS en JS heb gedaan (indien speciaal) + ik voeg ook de bronnen toe die ik heb gebruikt.
 
-Inhoudsopgave
+#Inhoudsopgave
 1.Hoofdstuk_1
 
-Hoofdstuk 1
+##Hoofdstuk 1
 De bedoeling is om een medailletabel te construeren van de Olympische Spelen Parijs 2024.
 
 HTML
@@ -36,7 +36,7 @@ https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_
 
 https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
 
-Hoofdstuk 2
+##Hoofdstuk 2
 
 Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
 Het hoofdstuk was ook vrij kort, dus ik heb een "korte" oefening gemaakt.
@@ -52,4 +52,9 @@ Eerste drie arrow functies gedeclareerd zonder body syntax (geeft direct return 
 Ook default waarden meegegeven indien geen getal wordt opgegeven.
 Laatste arrowfunctie gedeclareerd mét bodysyntax. Er kan immers een fout optreden indien gedeeld wordt door 0.
 
+Bronnen
+Cursus Web Essentials
+Cursus Programming Essentials
+
+https://www.bing.com/images/search?view=detailV2&ccid=XAJxMze%2f&id=8CE395B34202640CD6B13EA89668ADCE238C0D89&thid=OIP.XAJxMze_Rs9TgzIVCKTt_wHaEK&mediaurl=https%3a%2f%2fslidechef.net%2fwp-content%2fuploads%2f2021%2f10%2fFree-Google-Slides-Maths-Background.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5c02713337bf46cf5383321508a4edff%3frik%3diQ2MI86taJaoPg%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=background+maths&simid=608052110175529787&FORM=IRPRST&ck=CAC28B2150CB85AA5A0F291A44ECDEC5&selectedIndex=79&itb=0&ajaxhist=0&ajaxserp=0
 
