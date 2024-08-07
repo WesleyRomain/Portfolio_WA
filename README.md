@@ -5,10 +5,10 @@ In deze maak ik dus een hybride vorm van de opdracht die wordt verwacht van het 
 
 Ik splits telkens het project per hoofdstuk op in wat ik met HTML, CSS en JS heb gedaan (indien speciaal) + ik voeg ook de bronnen toe die ik heb gebruikt.
 
-##Inhoudsopgave
-1.[hoofdstuk_1](#hoofdstuk_1)
+Inhoudsopgave
+1.Hoofdstuk_1
 
-##hoofdstuk_1
+Hoofdstuk_1
 De bedoeling is om een medailletabel te construeren van de Olympische Spelen Parijs 2024.
 
 HTML
