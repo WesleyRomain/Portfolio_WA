@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
-    background-image: url(hoofdstuk_1/center.svg) ;
+    background-image: url("center.svg") ;
     background-size: cover; 
     background-position: center; 
     font-weight: bold;
