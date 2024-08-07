@@ -8,7 +8,7 @@ Ik splits telkens het project per hoofdstuk op in wat ik met HTML, CSS en JS heb
 #Inhoudsopgave
 1.Hoofdstuk_1
 
-##Hoofdstuk 1
+Hoofdstuk 1
 De bedoeling is om een medailletabel te construeren van de Olympische Spelen Parijs 2024.
 
 HTML
@@ -36,7 +36,7 @@ https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_
 
 https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
 
-##Hoofdstuk 2
+Hoofdstuk 2
 
 Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
 Het hoofdstuk was ook vrij kort, dus ik heb een "korte" oefening gemaakt.
