@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: #f2cd92;
+    background-image: url(wiskunde.jpg);
+    background-size: cover;
+    
+}
+h1{
+    font-size: 80px;
+    text-decoration: underline;
+    color: rgb(81, 140, 250);
+}

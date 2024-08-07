@@ -8,7 +8,7 @@ Ik splits telkens het project per hoofdstuk op in wat ik met HTML, CSS en JS heb
 Inhoudsopgave
 1.Hoofdstuk_1
 
-Hoofdstuk_1
+Hoofdstuk 1
 De bedoeling is om een medailletabel te construeren van de Olympische Spelen Parijs 2024.
 
 HTML
@@ -28,6 +28,7 @@ JS
 
 Bronnen
 Cursus Web Essentials
+Cursus Programming Essentials
 
 https://www.google.com/search?q=purple+log+paris+2024&sca_esv=00654281386d64e7&sca_upv=1&rlz=1C1VDKB_nlBE1017BE1017&udm=2&biw=1536&bih=643&sxsrf=ADLYWIIpsdESBp_pHQfDPZqxNuvv2getpg%3A1722880995755&ei=4xOxZuzQLeubkdUP9dqfiAo&ved=0ahUKEwiszvftt96HAxXrTaQEHXXtB6EQ4dUDCBE&uact=5&oq=purple+log+paris+2024&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXB1cnBsZSBsb2cgcGFyaXMgMjAyNEjxOlAAWMQ5cAh4AJABAJgBqgGgAb8MqgEEMjYuMbgBA8gBAPgBAZgCE6ACiAjCAgoQABiABBhDGIoFwgIFEAAYgATCAggQABiABBixA8ICDRAAGIAEGLEDGEMYigXCAgQQABgewgIHEAAYgAQYE8ICBhAAGBMYHsICCBAAGBMYCBgemAMAkgcEMTguMaAH-0g&sclient=gws-wiz-serp#vhid=lAUxHw66Fm28zM&vssid=mosaic
 
@@ -35,7 +36,20 @@ https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_
 
 https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
 
+Hoofdstuk 2
 
+Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
+Het hoofdstuk was ook vrij kort, dus ik heb een "korte" oefening gemaakt.
 
+HTML
+Gewerkt met span om textcontent in de elementen te brengen.
+
+CSS
+Background toegevoegd, voor de rest niets speciaal
+
+JS
+Eerste drie arrow functies gedeclareerd zonder body syntax (geeft direct return statement: lijn 3-5).
+Ook default waarden meegegeven indien geen getal wordt opgegeven.
+Laatste arrowfunctie gedeclareerd mét bodysyntax. Er kan immers een fout optreden indien gedeeld wordt door 0.
 
 
