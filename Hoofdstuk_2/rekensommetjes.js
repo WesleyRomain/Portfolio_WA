@@ -11,7 +11,7 @@ let delen = (a= 0, b = 1) => {
         return a / b
     }
 
-}; //delen door 0 geeft +oneindig, b wordt default op 0 gezet
+}; //delen door 0 geeft +oneindig, b wordt default op 1 gezet zodat er een geldig resultaat komt.
 
 document.getElementById('som1').textContent = optellen(5,6);
 document.getElementById('som2').textContent = optellen (4,3);
