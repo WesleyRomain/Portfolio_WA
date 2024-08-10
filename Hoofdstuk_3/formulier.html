@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "formulier.css"></link>
     <title>Inschrijvingsformulier</title>
 </head>
 <body>
     <h1>Inschrijvingsformulier Fitnesslessen</h1>
-    <form>
+    <form class = "formulier">
     <h2>Persoonsgegevens</h2>
         <label>Voornaam:</label>
         <input type = "text" maxlength = "30" required>
@@ -46,8 +47,19 @@
         <button type = "button" onclick = "berekenUitHTML()">Bereken BMI</button>
         <label id = "BMI">BMI = </label><br>
         <label>Ik eet...</label>
-        <input list = "voedigspatroon" name = "voedingspatroon">
-        
+        <select name = "voedingspatroon">
+        <option value = "o">Ongezond</option>
+        <option value = "e">Evenwichtig</option>
+        <option value = "mg">Gezond</option>
+        </select><br>
+        <label>Ik sport...</label>
+        <select name = "sportpatroon">
+        <option value = "n">Nooit</option>
+        <option value = "s">Soms</option>
+        <option value = "r">Regelmatig</option>
+        <option value = "v">Vaak</option>
+    
+
     </form>
     <script src="formulier.js"></script>
 </body>

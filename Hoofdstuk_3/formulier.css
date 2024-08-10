@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
+    color: white
+}
+
+input{
+    border-radius: 1em
+}
+
+select{
+    border-radius: 1em;
+}
+
+.formulier{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1em; 
+}
