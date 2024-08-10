@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inschrijvingsformulier</title>
+</head>
+<body>
+    <h1>Inschrijvingsformulier Fitnesslessen</h1>
+    <form>
+    <h2>Persoonsgegevens</h2>
+        <label>Voornaam:</label>
+        <input type = "text" maxlength = "30" required>
+        <label>Achternaam:</label>
+        <input type = "text" maxlength = "30" required><br>
+        <label>Geboortedatum:</label>
+        <input type = "date" required>
+        <label>Gender:</label>
+        <input id = "vrouw" type = "radio" name = "gender" value = "v">
+        <label for = "vrouw">Vrouw</label>
+        <input id = "man" type = "radio" name = "gender" value = "m">
+        <label for = "man">Man</label>
+        <input id = "x" type = "radio" name = "gender" value = "x">
+        <label for = "x">X</label><br>
+        <label>Straat: </label>
+        <input type = "text" required>
+        <label>Huisnummer: </label>
+        <input type ="text" required>
+        <label>Postcode: </label>
+        <input type = "text" required>
+        <label>Plaats: </label>
+        <input type = "text" required>
+        <label>Land: </label>
+        <input type = "text" required><br>
+        <label>E-mail:</label>
+        <input type = "email" required>
+        <label>Telefoon: </label>
+        <input type = "tel">
+        <label>GSM-nr: </label>
+        <input type = "tel">
+    <h2>Levensstijl</h2>
+        <label>Gewicht (kg) :</label>
+        <input type = "text" id = "gewicht" required>
+        <label>Lengte (m): </label>
+        <input type = "text" id = "lengte" required>
+        <button type = "button" onclick = "berekenUitHTML()">Bereken BMI</button>
+        <label id = "BMI">BMI = </label><br>
+        <label>Ik eet...</label>
+        <input list = "voedigspatroon" name = "voedingspatroon">
+        
+    </form>
+    <script src="formulier.js"></script>
+</body>
+</html>
