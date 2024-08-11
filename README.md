@@ -41,6 +41,8 @@ Manipulatie van elementen (stukje code voor rows toe te voegen)
 
 Cursus Web Essentials
 
+Cursus Web Advance
+
 Cursus Programming Essentials I
 
 https://www.google.com/search?q=purple+log+paris+2024&sca_esv=00654281386d64e7&sca_upv=1&rlz=1C1VDKB_nlBE1017BE1017&udm=2&biw=1536&bih=643&sxsrf=ADLYWIIpsdESBp_pHQfDPZqxNuvv2getpg%3A1722880995755&ei=4xOxZuzQLeubkdUP9dqfiAo&ved=0ahUKEwiszvftt96HAxXrTaQEHXXtB6EQ4dUDCBE&uact=5&oq=purple+log+paris+2024&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXB1cnBsZSBsb2cgcGFyaXMgMjAyNEjxOlAAWMQ5cAh4AJABAJgBqgGgAb8MqgEEMjYuMbgBA8gBAPgBAZgCE6ACiAjCAgoQABiABBhDGIoFwgIFEAAYgATCAggQABiABBixA8ICDRAAGIAEGLEDGEMYigXCAgQQABgewgIHEAAYgAQYE8ICBhAAGBMYHsICCBAAGBMYCBgemAMAkgcEMTguMaAH-0g&sclient=gws-wiz-serp#vhid=lAUxHw66Fm28zM&vssid=mosaic
@@ -77,15 +79,19 @@ Laatste arrowfunctie gedeclareerd mét bodysyntax. Er kan immers een fout optred
 
 Cursus Web Essentials
 
+Cursus Web Advanced
+
 Cursus Programming Essentials I
 
 https://www.bing.com/images/search?view=detailV2&ccid=XAJxMze%2f&id=8CE395B34202640CD6B13EA89668ADCE238C0D89&thid=OIP.XAJxMze_Rs9TgzIVCKTt_wHaEK&mediaurl=https%3a%2f%2fslidechef.net%2fwp-content%2fuploads%2f2021%2f10%2fFree-Google-Slides-Maths-Background.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5c02713337bf46cf5383321508a4edff%3frik%3diQ2MI86taJaoPg%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=background+maths&simid=608052110175529787&FORM=IRPRST&ck=CAC28B2150CB85AA5A0F291A44ECDEC5&selectedIndex=79&itb=0&ajaxhist=0&ajaxserp=0
 
 ## Hoofdstuk 3: Formulier
 
+Een formulier om je aan te melden voor een fitnessprogramma.
+
 ### HTML
 
-Doel is om data te versturen naar een fitnessbedrijf via een form-HTML.
+Gebruik gemaakt van <form> element en verwanten.
 
 ### CSS
 
@@ -110,6 +116,8 @@ Await/Async: functie zal controleren of de gebruiker een echt mens is via een ee
 ### Bronnen
 
 Cursus Web Essentials
+
+Cursus Web Advanced
 
 Cursus Programming Essentials I
 
