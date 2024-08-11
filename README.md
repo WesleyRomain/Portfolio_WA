@@ -49,6 +49,8 @@ https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_
 
 https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
 
+https://chatgpt.com/share/26327263-1e85-482c-9ac1-cd25e7f64c4e
+
 ## Hoofdstuk 2: Rekensommetjes
 
 Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
@@ -96,4 +98,14 @@ https://www.w3schools.com/js/js_promise.asp
 https://www.w3schools.com/js/js_async.asp
 
 https://www.w3schools.com/css/css3_flexbox.asp
+
+https://chatgpt.com/share/5abf4d83-16f1-4f60-94ea-415a8eeb4a2b
+
+https://chatgpt.com/share/2a37d95b-2ff2-4418-974b-07d4b0646bf3
+
+
+
+
+
+
 

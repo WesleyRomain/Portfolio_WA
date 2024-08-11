@@ -64,3 +64,10 @@ async function controleVerificatie() {
         alert(resultaat);
 };
 
+(async function zelfUitvoerend() {
+    let promise = new Promise((resolve, reject) => {
+        setTimeout(() =>resolve("Als je nog vragen hebt, scroll dan naar de link vanboven."), 10000)
+    });
+        let resultaat = await promise;
+        alert(resultaat);
+    })();
