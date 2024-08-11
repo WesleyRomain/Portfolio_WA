@@ -54,7 +54,7 @@ async function controleVerificatie() {
     let promise = new Promise((resolve, reject) => {
         let som = document.getElementById("verificatie").value;
 
-        if (som == 8) {                         //gebaseerd op slide 33 van de cursus.
+        if (som == 8) {                         //gebaseerd op slide 33 van de cursus, maar met eigen touch.
             resolve("Verificatie geslaagd.");
         } else {
             reject("verificatie mislukt");
