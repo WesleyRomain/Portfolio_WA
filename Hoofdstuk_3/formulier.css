@@ -1,21 +1,33 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightskyblue;
-    color: white
+    background-image: url("fitness.jpg");
+    background-position: center;
+    background-size: cover;
+    color:whitesmoke;
+    font-size: 1.5em;
 }
 
-input{
-    border-radius: 1em
+h1{
+    text-transform: uppercase;
+}
+h2{
+    font-size: 2em;
+    text-decoration: underline;
 }
 
-select{
+
+input, select{
     border-radius: 1em;
+    width: 400px;
+    height: 20px;
 }
 
-.formulier{
+#formulier{
     display: flex;
     flex-flow: column wrap;
+    justify-content: flex-start;
     align-items: center;
     gap: 1em; 
 }
+
