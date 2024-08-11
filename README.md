@@ -83,6 +83,30 @@ https://www.bing.com/images/search?view=detailV2&ccid=XAJxMze%2f&id=8CE395B34202
 
 ## Hoofdstuk 3: Formulier
 
+### HTML
+
+Doel is om data te versturen naar een fitnessbedrijf via een form-HTML.
+
+### CSS
+
+Background ingesteld en gebruik gemaakt van flexbox voor de items in het formulier te ordenen.
+Niet tevreden van background. Eigelijk was het de bedoeling om het scherm in twee te splitsen: langs ene kant het formulier, langs andere kant een afbeelding.
+Dit zou het formulier minder plaats laten innemen en maakt de background minder bombastisch.
+(Geef zeker feedback hoe ik dit kan bewerkstellingen).
+
+### JS
+
+Callback-functie toegepast (1: WeergeefBMI): weergeefBMI (=callbackfunctie) die toegepast wordt in de parameters van bmiBerekenen.
+
+Callback-functie toegepast (2: hulpNodig): hulpNodig (=callbackfunctie) die toegepast wordt in de parameters van setTimeout.
+
+Self-executing function (functie: zelfUitvoerend):vrij eenvoudig gehouden, naar analogie met de cursus. De functie voert zichzelf uit na 10 seconden. Geeft popup met de melding dat er een link voor hulp.
+
+Promise + consumer methods (in functie: Checkmotivatie): Persoon zal "Heel veel motivatie" of iets anders ingeven om te bewijzen dat hij/zij/x er zin in heeft.
+Bij elke situatie een andere zin onderaan de pagina (then consumer methods). Bedoeling is om net na de check motivatie button te appenden, maar nog niet helemaal uit hoe ik dit correct moet doen.
+
+Await/Async: functie zal controleren of de gebruiker een echt mens is via een eenvoudige verficatie oefening.
+
 ### Bronnen
 
 Cursus Web Essentials
