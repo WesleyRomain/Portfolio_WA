@@ -18,7 +18,7 @@ function berekenUitHTML(){
 
 function hulpNodig(params){
     let eersteVersie= document.getElementById("hulpnodig");
-    eersteVersie.innerHTML += '<br><a href = "mailto:wesleyromain@gmail.com">Hulp Nodig? klik op deze link om de eigenaar te mailen</a>';
+    eersteVersie.innerHTML += '<br><a href = "mailto:wesleyromain@gmail.com">Hulp nodig? Klik op deze link om de eigenaar te mailen.</a>';
 }
 
 setTimeout(hulpNodig, 10000)
@@ -71,3 +71,7 @@ async function controleVerificatie() {
         let resultaat = await promise;
         alert(resultaat);
     })();
+
+    function formulierVerstuurd(){
+        alert("Het formulier werd verstuurd")
+    }

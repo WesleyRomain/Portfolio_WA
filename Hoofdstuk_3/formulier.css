@@ -1,33 +1,78 @@
 body{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("fitness.jpg");
-    background-position: center;
-    background-size: cover;
-    color:whitesmoke;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: lightslategrey;
     font-size: 1.5em;
+    text-align: center;
+}
+
+.container{
+    display: flex;                  /*Elementen in de container worden flex-items, default row*/
+    justify-content: space-between; /*Er wordt ruimte gemaakt tussen de flex-items*/
+    align-items: flex-start; 
+    box-sizing: border-box;
+    padding: 20px;    
+}
+
+form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: aliceblue;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    ;
 }
 
 h1{
-    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
 }
+
 h2{
     font-size: 2em;
     text-decoration: underline;
+    text-align: left;
 }
 
 
 input, select{
     border-radius: 1em;
-    width: 400px;
-    height: 20px;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    margin: 0.5em 0;
+    padding: 0.5em;
 }
 
-#formulier{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1em; 
+a{
+    color: lightsteelblue;
 }
 
+a:hover{
+    color: blue;
+}
+
+button, #submitbutton{
+    border-radius: 1em;
+    background-color:aliceblue;
+    color: lightslategray;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightpink;
+
+}
+
+#submitbutton:hover{
+    background-color: lightseagreen;
+}
