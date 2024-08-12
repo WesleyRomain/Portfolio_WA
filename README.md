@@ -23,7 +23,7 @@ Een image toegevoegd. Voor de rest is de HTML code vrij normaal.
 
 In mijn CSS heb ik twee "moeilijkheden" toegevoegd:
 1. Het gebruik van een Google Font.
-2. Een achtergrondafbeelding (van het web gehaald, zie ook HTML ).
+2. Een achtergrondafbeelding (van het web gehaald, zie ook HTML).
 
 ### JS
 
