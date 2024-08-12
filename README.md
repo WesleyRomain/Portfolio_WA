@@ -104,7 +104,6 @@ Callback-functie toegepast (3: hulpNodig lijn 24): hulpNodig (=callbackfunctie) 
 Promise + consumer methods (in functie: Checkmotivatie lijn 26-51): Persoon zal "Heel veel motivatie" of iets anders ingeven om te bewijzen dat hij/zij/x er zin in heeft.
 Bij elke situatie een andere zin onderaan de pagina (.then consumer methods).
 
-
 Await/Async (lijn 53-65): functie zal controleren of de gebruiker een echt mens is via een eenvoudige verficatie oefening.
 
 Self-executing function (functie: zelfUitvoerend lijn 67-73):vrij eenvoudig gehouden, naar analogie met de cursus. De functie voert zichzelf uit na 10 seconden. Geeft popup met de melding dat er een link aanwezig is voor hulp.
