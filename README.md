@@ -51,6 +51,10 @@ https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_
 
 https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
 
+https://chatgpt.com/share/5a75de91-91bd-49d5-86fa-1dafcc18663a
+
+ChatGPT gebruikt om de syntax van een Readme te begrijpen en toe te passen.
+
 
 ## Hoofdstuk 2: Rekensommetjes
 
