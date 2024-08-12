@@ -29,7 +29,7 @@ In mijn CSS heb ik twee "moeilijkheden" toegevoegd:
 
 Element selecteren uit HTML (lijn 13).
 
-functie som + rest operator: zal het totaal aantal medailles optellen voor een x aantal-argumenten (lijn 17).
+Functie som + rest operator: zal het totaal aantal medailles optellen voor een x aantal-argumenten (lijn 17).
 
 Destructurering van mijn lijst objecten: per land een nieuw object aanmaken (zodat makkelijker mee kunnen werken, lijn 26).
 
