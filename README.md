@@ -27,21 +27,21 @@ In mijn CSS heb ik twee "moeilijkheden" toegevoegd:
 
 ### JS
 
-Element geselecteerd uit HTML: lijn 13
+Element selecteren uit HTML (lijn 13).
 
-Normale functie som + rest operator: zal het totaal aantal medailles optellen voor een x aantal-argumenten: lijn 17
+functie som + rest operator: zal het totaal aantal medailles optellen voor een x aantal-argumenten (lijn 17).
 
-Destructurering van mijn lijst objecten: per land een nieuw object aanmaken (zodat makkelijker mee kunnen werken): lijn 26
+Destructurering van mijn lijst objecten: per land een nieuw object aanmaken (zodat makkelijker mee kunnen werken, lijn 26).
 
-Template literals: bij het toevoegen van nieuwe cellen in mijn rij: lijn 33
+Template literals: bij het toevoegen van nieuwe cellen in mijn rij (lijn 33).
 
-Manipulatie van elementen (stukje code voor rows toe te voegen)
+Manipulatie van elementen (lijn 25-45).
 
 ### Bronnen
 
-Cursus Web Essentials
+Cursus Web Essentials (Hoofdstukken: HTML, CSS, JS DOM)
 
-Cursus Web Advance
+Cursus Web Advance 
 
 Cursus Programming Essentials I
 
@@ -51,7 +51,6 @@ https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_
 
 https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
 
-https://chatgpt.com/share/26327263-1e85-482c-9ac1-cd25e7f64c4e
 
 ## Hoofdstuk 2: Rekensommetjes
 
@@ -65,21 +64,19 @@ Gewerkt met span om textcontent in de elementen te brengen.
 
 ### CSS
 
-Background toegevoegd, voor de rest niets speciaal
+Background toegevoegd, voor de rest niets speciaal.
 
 ### JS
 
-Eerste drie arrow functies gedeclareerd zonder body syntax (geeft direct return statement: lijn 3-5).
+Eerste drie arrow functies gedeclareerd zonder body syntax: optellen, aftrekken, vermenigvuldigen (lijn 3-5). Ook default waarden meegegeven indien geen getal wordt opgegeven.
 
-Ook default waarden meegegeven indien geen getal wordt opgegeven.
-
-Laatste arrowfunctie gedeclareerd mét bodysyntax. Er kan immers een fout optreden indien gedeeld wordt door 0.
+Laatste arrowfunctie gedeclareerd mét bodysyntax (lijn 6-14). Er kan immers een fout optreden indien gedeeld wordt door 0.
 
 ### Bronnen
 
-Cursus Web Essentials
+Cursus Web Essentials (Hoofdstukken: HTML, CSS, JS DOM)
 
-Cursus Web Advanced
+Cursus Web Advanced (Hoofdstuk: Arrowfunctions, Default parameters)
 
 Cursus Programming Essentials I
 
@@ -95,29 +92,31 @@ Gebruik gemaakt van <form> element en verwanten.
 
 ### CSS
 
-Background ingesteld en gebruik gemaakt van flexbox voor de items in het formulier te ordenen.
-Niet tevreden van background. Eigelijk was het de bedoeling om het scherm in twee te splitsen: langs ene kant het formulier, langs andere kant een afbeelding.
-Dit zou het formulier minder plaats laten innemen en maakt de background minder bombastisch.
-(Geef zeker feedback hoe ik dit kan bewerkstellingen).
+Gebruik gemaakt van flexbox om de pagina te ordenen.
+Ook gewerkt met box-sizing zodat margin, padding & border geintegreerd worden in grootte element.
 
 ### JS
 
-Callback-functie toegepast (1: WeergeefBMI): weergeefBMI (=callbackfunctie) die toegepast wordt in de parameters van bmiBerekenen.
+Callback-functie (1: WeergeefBMI lijn 3-5): weergeefBMI (=callbackfunctie) die toegepast wordt in de parameters van bmiBerekenen (lijn 7-10).
 
-Callback-functie toegepast (2: hulpNodig): hulpNodig (=callbackfunctie) die toegepast wordt in de parameters van setTimeout.
+Callback-functie toegepast (3: hulpNodig lijn 24): hulpNodig (=callbackfunctie) die toegepast wordt in de parameters van setTimeout. Na 10 seconde verschijnt er een link bovenaan het scherm.
 
-Self-executing function (functie: zelfUitvoerend):vrij eenvoudig gehouden, naar analogie met de cursus. De functie voert zichzelf uit na 10 seconden. Geeft popup met de melding dat er een link voor hulp.
+Promise + consumer methods (in functie: Checkmotivatie lijn 26-51): Persoon zal "Heel veel motivatie" of iets anders ingeven om te bewijzen dat hij/zij/x er zin in heeft.
+Bij elke situatie een andere zin onderaan de pagina (.then consumer methods).
 
-Promise + consumer methods (in functie: Checkmotivatie): Persoon zal "Heel veel motivatie" of iets anders ingeven om te bewijzen dat hij/zij/x er zin in heeft.
-Bij elke situatie een andere zin onderaan de pagina (then consumer methods). Bedoeling is om net na de check motivatie button te appenden, maar nog niet helemaal uit hoe ik dit correct moet doen.
 
-Await/Async: functie zal controleren of de gebruiker een echt mens is via een eenvoudige verficatie oefening.
+Await/Async (lijn 53-65): functie zal controleren of de gebruiker een echt mens is via een eenvoudige verficatie oefening.
+
+Self-executing function (functie: zelfUitvoerend lijn 67-73):vrij eenvoudig gehouden, naar analogie met de cursus. De functie voert zichzelf uit na 10 seconden. Geeft popup met de melding dat er een link aanwezig is voor hulp.
+
+
+Event aan element koppelen (lijn HTML: 51,69,72-73 ): bij onclick() voert er een welbepaalde functie zichzelf uit.
 
 ### Bronnen
 
-Cursus Web Essentials
+Cursus Web Essentials (Hoofdstukken: HTML, CSS, flexbox, boxes en boxmodel en JS DOM)
 
-Cursus Web Advanced
+Cursus Web Advanced (Hoofdsstukken: Callbacks, Promises, Async, Await, Fetch)
 
 Cursus Programming Essentials I
 
@@ -131,13 +130,7 @@ https://www.w3schools.com/js/js_async.asp
 
 https://www.w3schools.com/css/css3_flexbox.asp
 
-https://chatgpt.com/share/5abf4d83-16f1-4f60-94ea-415a8eeb4a2b
+https://copilot.microsoft.com/sl/jajlsm0EPgy
 
-https://chatgpt.com/share/2a37d95b-2ff2-4418-974b-07d4b0646bf3
-
-
-
-
-
-
+Ik heb voor de styling gebruik gemaakt van hulp Copilot (algemene concepten terug verduidelijken).
 

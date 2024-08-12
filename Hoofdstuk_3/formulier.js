@@ -72,6 +72,6 @@ async function controleVerificatie() {
         alert(resultaat);
     })();
 
-    function formulierVerstuurd(){
+function formulierVerstuurd(){
         alert("Het formulier werd verstuurd")
-    }
+}
