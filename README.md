@@ -137,8 +137,6 @@ https://copilot.microsoft.com/sl/jajlsm0EPgy
 
 https://g.co/gemini/share/6da0075add94
 
-https://g.co/gemini/share/6da0075add94
-
 Ik heb voor de styling gebruik gemaakt van Copilot en Gemini (algemene concepten terug verduidelijken, eventueel mij zeggen waar mijn fout ligt, code is verschillend van de definitieve code). Uiteindelijk heeft de cursus Web Essentials/Advanced mij het meest geholpen.
 
 
