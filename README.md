@@ -92,7 +92,7 @@ Een formulier om je aan te melden voor een fitnessprogramma.
 
 ### HTML
 
-Gebruik gemaakt van <form> element en verwanten.
+Gebruik gemaakt van form-element en verwanten.
 
 ### CSS
 
