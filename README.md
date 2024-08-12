@@ -131,5 +131,10 @@ https://www.w3schools.com/css/css3_flexbox.asp
 
 https://copilot.microsoft.com/sl/jajlsm0EPgy
 
-Ik heb voor de styling gebruik gemaakt van hulp Copilot (algemene concepten terug verduidelijken).
+https://g.co/gemini/share/6da0075add94
+
+https://g.co/gemini/share/6da0075add94
+
+Ik heb voor de styling gebruik gemaakt van Copilot en Gemini (algemene concepten terug verduidelijken, eventueel mij zeggen waar mijn fout ligt, code is verschillend van de definitieve code). Uiteindelijk heeft de cursus Web Essentials/Advanced mij het meest geholpen.
+
 
