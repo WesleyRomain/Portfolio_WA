@@ -1,17 +1,17 @@
 # Portfolio Web Advanced
 
-Ik heb gekozen om per hoofdstuk (op basis van de hoorcolleges) een project samen te stellen dat bestaat uit HTML, CSS en JS van de geziene leerstof.
+Ik heb gekozen om drie projecten te maken.
 
-In deze maak ik dus een hybride vorm van de opdracht die wordt verwacht van het portfolio.
+De eerste twee projecten gaan respectievelijk over hoofdstuk 1 en 2 van de hoorcolleges.
 
-Ik splits telkens het project per hoofdstuk op in wat ik met HTML, CSS en JS heb gedaan (indien speciaal) + ik voeg ook de bronnen toe die ik heb gebruikt.
+Het laatste project is een integratie van hoofstuk 3-6 van de hoorcolleges.
 
 ## Inhoudsopgave
-1. [Hoofstuk 1: Medailletabel Olympische Spelen](#hoofdstuk-1-medailletabel-olympische-spelen)
-2. [Hoofdstuk 2: Rekensommetjes](#hoofdstuk-2-rekensommetjes)
-3. [Hoofdstuk 3: Formulier](#hoofdstuk-3-formulier)
+1. [Project 1: Medailletabel Olympische Spelen](#project-1-medailletabel-olympische-spelen)
+2. [Project 2: Rekensommetjes](#project-2-rekensommetjes)
+3. [Project 3: Formulier](#project-3-formulier)
 
-## Hoofdstuk 1: Medailletabel olympische Spelen
+## Project 1: Medailletabel olympische Spelen
 
 De bedoeling is om een medailletabel te construeren van de Olympische Spelen Parijs 2024.
 
@@ -56,7 +56,7 @@ https://chatgpt.com/share/5a75de91-91bd-49d5-86fa-1dafcc18663a
 ChatGPT gebruikt om de syntax van een Readme te begrijpen en toe te passen.
 
 
-## Hoofdstuk 2: Rekensommetjes
+## Project 2: Rekensommetjes
 
 Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
 
@@ -86,7 +86,7 @@ Cursus Programming Essentials I
 
 https://www.bing.com/images/search?view=detailV2&ccid=XAJxMze%2f&id=8CE395B34202640CD6B13EA89668ADCE238C0D89&thid=OIP.XAJxMze_Rs9TgzIVCKTt_wHaEK&mediaurl=https%3a%2f%2fslidechef.net%2fwp-content%2fuploads%2f2021%2f10%2fFree-Google-Slides-Maths-Background.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5c02713337bf46cf5383321508a4edff%3frik%3diQ2MI86taJaoPg%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=background+maths&simid=608052110175529787&FORM=IRPRST&ck=CAC28B2150CB85AA5A0F291A44ECDEC5&selectedIndex=79&itb=0&ajaxhist=0&ajaxserp=0
 
-## Hoofdstuk 3: Formulier
+## Project 3: Formulier
 
 Een formulier om je aan te melden voor een fitnessprogramma.
 
