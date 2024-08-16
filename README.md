@@ -112,10 +112,13 @@ Await/Async (lijn 53-65): functie zal controleren of de gebruiker een echt mens 
 
 Self-executing function (functie: zelfUitvoerend lijn 67-73):vrij eenvoudig gehouden, naar analogie met de cursus. De functie voert zichzelf uit na 10 seconden. Geeft popup met de melding dat er een link aanwezig is voor hulp.
 
+Event aan element koppelen (lijn HTML: 51,68,73,76 & 77 ): bij onclick() voert er een welbepaalde functie zichzelf uit.
 
-Event aan element koppelen (lijn HTML: 51,69,72-73 ): bij onclick() voert er een welbepaalde functie zichzelf uit.
+Fetch + JSON manipulatie (lijn 79-109): Data wordt opgehaald van een externe bron met allemaal fitnessoefeningen. Nadien wordt data gemanipuleerd en gebruikt in de webpagina.
 
 ### Bronnen
+
+Ik heb voor de styling en JS gebruik gemaakt van Copilot, Gemini en ChatGPT om mij te helpen (algemene concepten terug verduidelijken, eventueel mij zeggen waar mijn fout ligt, code is verschillend van de definitieve code). Uiteindelijk heeft de cursus Web Essentials/Advanced mij het meest geholpen. Het Youtubefilmpje is een basis geweest om de fetchoefening uit te werken.
 
 Cursus Web Essentials (Hoofdstukken: HTML, CSS, flexbox, boxes en boxmodel en JS DOM)
 
@@ -137,6 +140,11 @@ https://copilot.microsoft.com/sl/jajlsm0EPgy
 
 https://g.co/gemini/share/6da0075add94
 
-Ik heb voor de styling gebruik gemaakt van Copilot en Gemini (algemene concepten terug verduidelijken, eventueel mij zeggen waar mijn fout ligt, code is verschillend van de definitieve code). Uiteindelijk heeft de cursus Web Essentials/Advanced mij het meest geholpen.
+https://chatgpt.com/share/e6d54d0e-a1d8-41e2-be4e-0bec7897c1d0
+
+https://www.youtube.com/watch?v=37vxWr0WgQk 
+
+https://g.co/gemini/share/efc1bda17429
+
 
 

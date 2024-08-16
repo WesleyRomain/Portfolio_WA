@@ -16,22 +16,22 @@ function berekenUitHTML(){
     bmiBerekenen(lengte, gewicht, weergeefBMI)
 }
 
-function hulpNodig(params){
+function hulpNodig(){
     let eersteVersie= document.getElementById("hulpnodig");
     eersteVersie.innerHTML += '<br><a href = "mailto:wesleyromain@gmail.com">Hulp nodig? Klik op deze link om de eigenaar te mailen.</a>';
 }
 
-setTimeout(hulpNodig, 10000)
+setTimeout(hulpNodig, 10000);
 
 function checkMotivatie(){
-let motivatiePromise = new Promise((resolve, reject) => {
-    let motivatie = document.getElementById("motivatie").value;
+let motivatiePromise = new Promise((resolve, reject) => { // Promise initialiseren.
+    let motivatie = document.getElementById("motivatie").value; // Vraag de waarde op die wordt ingevuld in het veld.
 
     if (motivatie == "Heel veel zin") {
-        resolve("Wat fijn dat je gemotiveerd bent!")
+        resolve("Wat fijn dat je gemotiveerd bent!") // resolve module
     }
     else{
-        reject("Jammer dat de motivatie ontbreekt...")
+        reject("Jammer dat de motivatie ontbreekt...") //reject module
     }
     
 })
@@ -72,6 +72,41 @@ async function controleVerificatie() {
         alert(resultaat);
     })();
 
+
+async function dataOphalen() {
+    try{
+        const naamOefening = document.getElementById("naamOefening").value; //haal de waarde op ingevoerd in mijn textveld
+        const response = await fetch(`https://raw.githubusercontent.com/wrkout/exercises.json/master/exercises/${naamOefening}/exercise.json`); //antwoord is afh. van de naam van de oefening.
+
+        if (!response.ok) {
+            throw new Error("Kan de fetch bron niet vinden") // indien oefening niet in database, error wordt gegooid.
+        }
+
+        const data = await response.json();
+        console.log(data); //controle of data effectief wordt opgehaald.
+
+        const lijstInstructies = data.instructions; //haal de value op van de key instructions in data.
+        console.log(lijstInstructies);
+
+        let zin = "" //we maken eerst een lege zin
+        
+        for (let i = 0; i <lijstInstructies.length; i++) {  //voor elk lijstitem haal de waarde op en voeg toe aan de zin.
+            const element = lijstInstructies[i];
+            zin += element;
+        }
+
+        console.log(zin); //ter verificatie dat de zin effectief wordt geladen.
+
+        document.getElementById("uitlegOefening").innerText = zin //voeg de zin toe in HTML
+
+    }
+
+    catch(error){
+        console.error(error);
+    }
+
+}
+
 function formulierVerstuurd(){
-        alert("Het formulier werd verstuurd")
+    alert("Het formulier werd verstuurd")
 }

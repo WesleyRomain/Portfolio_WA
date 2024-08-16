@@ -45,9 +45,9 @@
                 <input type = "tel">
             <h2>Levensstijl</h2>
                 <label>Gewicht (kg) :</label>
-                <input type = "text" id = "gewicht" required>
+                <input type = "text" id = "gewicht" placeholder = "Geef je gewicht in kg (Voorbeeld: 90)" required>
                 <label>Lengte (m): </label>
-                <input type = "text" id = "lengte" required>
+                <input type = "text" id = "lengte" placeholder = "Geef je lengte in mete (Voorbeeld: 1.80)" required>
                 <button type = "button" onclick = "berekenUitHTML()">Bereken BMI</button><br>
                 <label id = "BMI">BMI = </label><br>
                 <label>Ik eet...</label>
@@ -62,7 +62,11 @@
                     <option value = "s">Soms</option>
                     <option value = "r">Regelmatig</option>
                     <option value = "v">Vaak</option>
-                </select>
+                </select><br>
+                <label>Mijn favoriete oefening is...</label>
+                <input type = "text" id = "naamOefening" placeholder="Geef je favoriete oefening">
+                <button type = "button" onclick = "dataOphalen()">Toon de instructies van mijn favoriete oefening</button><br>
+                <p id="uitlegOefening"></p>
             <h2>Motivatie</h2>
             <p>Hoeveel zin heb je in het fitnessprogramma? Typ: "Heel veel zin" als je gemotiveerd bent!</p>
             <input id = "motivatie" type = "text" required>
