@@ -1,10 +1,10 @@
 # Portfolio Web Advanced
 
 Ik heb gekozen om drie projecten te maken.
-
 De eerste twee projecten gaan respectievelijk over hoofdstuk 1 en 2 van de hoorcolleges.
-
 Het laatste project is een integratie van hoofstuk 3-6 van de hoorcolleges.
+
+Mijn portfolio is op die manier een hybride vorm van de opdracht die ons werd toebedeeld.
 
 ## Inhoudsopgave
 1. [Project 1: Medailletabel Olympische Spelen](#project-1-medailletabel-olympische-spelen)
