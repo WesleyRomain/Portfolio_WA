@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medailletabel Parijs 2024</title>
-    <link rel = "stylesheet" href = "medailles.css">
-    <!--ik gebruik hier een leuke Googlefont anders is het ook maar saai-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel = "stylesheet" href = "medailles.css"> <!--Koppelen CSS aan HTML-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Ik gebruik hier een leuke Googlefont anders is het ook maar saai-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
         <h1>Medailletabel Parijs 2024 (TOP 5)</h1>
-        <table>
-            <tr>
+        <table>           <!--Aanmaak tabel, achterliggend (via JS zullen elementen toegevoegd worden)-->
+            <tr>          <!--Eerste rij bestaat uit tableheads (= hoe ik de waarden in mijn tabel te interpreteren?)-->
                 <th>Plaats</th>
                 <th>Land</th>
                 <th class = 'goud'>Goud</th>
@@ -21,12 +20,12 @@
                 <th class = 'brons'>Brons</th>
                 <th>Totaal</th>
             </tr>
-            <tbody id = 'landen-lijst'></tbody>
+            <tbody id = 'landen-lijst'></tbody> <!--De body blijft leeg, maar wordt ingevuld door JS-->
         </table>
-        <label>Wat is je reactie op deze medaillestand?</label><br><br>
-        <input type = "text" placeholder = "Voer hier iets in" id="invoer"> 
+        <label>Wat is je reactie op deze medaillestand?</label><br><br> 
+        <input type = "text" placeholder = "Voer hier iets in" id="invoer"> <!--Invoerveld voor mening te geven over Medailletabel, placeholder indien nog niets ingevoerd-->
         <p id = "herhaling"></p>
-        <img src="images/olympische_ringen.svg.png" alt="Olympische Ringen" class="ringen">
-        <script src = "medailles.js"></script> 
+        <img src="images/olympische_ringen.svg.png" alt="Olympische Ringen" class="ringen"> <!--Afbeelding met logo olympische spelen, alt wordt weergeven als afbeelding niet laadt-->
+        <script src = "medailles.js"></script> <!--Koppelen script aan HTML--> 
 </body>
 </html>

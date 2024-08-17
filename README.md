@@ -11,31 +11,42 @@ Mijn portfolio is op die manier een hybride vorm van de opdracht die ons werd to
 2. [Project 2: Rekensommetjes](#project-2-rekensommetjes)
 3. [Project 3: Formulier](#project-3-formulier)
 
-## Project 1: Medailletabel olympische Spelen
+## Project 1: Medailletabel Olympische Spelen
 
 De bedoeling is om een medailletabel te construeren van de Olympische Spelen Parijs 2024.
 
 ### HTML
 
-Een image toegevoegd. Voor de rest is de HTML code vrij normaal.
+Een image toegevoegd. Beneden ook een invoerveld waar ik localStorage op zal toepassen.
 
 ### CSS
 
 In mijn CSS heb ik twee "moeilijkheden" toegevoegd:
 1. Het gebruik van een Google Font.
 2. Een achtergrondafbeelding (van het web gehaald, zie ook HTML).
+3. Gebruik van een SVG.
 
 ### JS
 
-Element selecteren uit HTML (lijn 13).
+Constante definiëren (lijn 4-10, lijn 45-46): topMedailleWinnaars, een lijst van objecten (met properties en values). Ook input-element en p-element ophalen.
 
-Functie som + rest operator: zal het totaal aantal medailles optellen voor een x aantal-argumenten (lijn 17).
+Element selecteren uit HTML en toewijzen aan nieuwe variabele (lijn 13).
 
-Destructurering van mijn lijst objecten: per land een nieuw object aanmaken (zodat makkelijker mee kunnen werken, lijn 26).
+Functie som + rest operator (lijn 16-22): zal het totaal aantal medailles optellen voor een x-aantal argumenten.
 
-Template literals: bij het toevoegen van nieuwe cellen in mijn rij (lijn 33).
+Destructurering van mijn lijst objecten (lijn 26): per land een nieuw object aanmaken (zodat makkelijker mee kunnen werken).
 
-Manipulatie van elementen (lijn 25-45).
+Spread operator (lijn 28).
+
+Template literals(lijn 33-38): bij het toevoegen van nieuwe cellen in mijn rij .
+
+Manipulatie van elementen (lijn 41, lijn 48): voor elk land wordt een rij toegevoegd aan de tabel (HTML-code wordt bewerkt).
+
+Gebruik localStorage (lijn 48, 52-53): als webpagina gerefresht wordt, zal laatst ingegeven waarde zichtbaar zijn (dit is niet zo als er geen gebruik gemaakt wordt van LS).
+
+EventListner toegevoegd (lijn 49): elke keer een toets losgelaten wordt, zal functie Weergave() uitgevoerd worden.
+
+Functie toegevoegd (lijn 51-54): wordt aangeroepen als een toets wordt losgelaten in het invoerveld.
 
 ### Bronnen
 
@@ -48,11 +59,11 @@ Cursus Web Advance
 
 Cursus Programming Essentials I
 
-https://www.google.com/search?q=purple+log+paris+2024&sca_esv=00654281386d64e7&sca_upv=1&rlz=1C1VDKB_nlBE1017BE1017&udm=2&biw=1536&bih=643&sxsrf=ADLYWIIpsdESBp_pHQfDPZqxNuvv2getpg%3A1722880995755&ei=4xOxZuzQLeubkdUP9dqfiAo&ved=0ahUKEwiszvftt96HAxXrTaQEHXXtB6EQ4dUDCBE&uact=5&oq=purple+log+paris+2024&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXB1cnBsZSBsb2cgcGFyaXMgMjAyNEjxOlAAWMQ5cAh4AJABAJgBqgGgAb8MqgEEMjYuMbgBA8gBAPgBAZgCE6ACiAjCAgoQABiABBhDGIoFwgIFEAAYgATCAggQABiABBixA8ICDRAAGIAEGLEDGEMYigXCAgQQABgewgIHEAAYgAQYE8ICBhAAGBMYHsICCBAAGBMYCBgemAMAkgcEMTguMaAH-0g&sclient=gws-wiz-serp#vhid=lAUxHw66Fm28zM&vssid=mosaic
+https://images.app.goo.gl/QrQjNt5J7RDN9FPA6
 
 https://en.wikipedia.org/wiki/Olympic_symbols#/media/File:Olympic_rings_without_rims.svg
 
-https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=medal+table+pa&sc=10-14&sk=&cvid=AFF87784DF884F5AB22DF009134F2A85&ghsh=0&ghacc=0&ghpl=
+https://olympics.com/en/paris-2024/medals?displayAsWebView=true%2Ctrue
 
 https://chatgpt.com/share/5a75de91-91bd-49d5-86fa-1dafcc18663a
 
@@ -101,7 +112,7 @@ Gebruik gemaakt van form-element en verwanten.
 
 Gebruik gemaakt van flexbox om de pagina te ordenen.
 Ook gewerkt met box-sizing zodat margin, padding & border geintegreerd worden in grootte element.
-Tot slot zijn er een aantal animaties toegevoegd: vergroten van de buttons als er over gehooverd wordt met Scale, transitie van de achtegrongkleur, een zelfgemaakte animatie,...
+Tot slot zijn er een aantal animaties toegevoegd: vergroten van de buttons als er over gehooverd wordt met scale, transitie van de achtegrongkleur, een zelfgemaakte animatie,...
 
 ### JS
 
