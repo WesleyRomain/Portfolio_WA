@@ -1,6 +1,6 @@
 # Portfolio Web Advanced
 
-Ik heb gekozen om drie projecten te maken.
+Ik heb gekozen om drie projecten uit te werken.
 De eerste twee projecten gaan respectievelijk over hoofdstuk 1 en 2 van de hoorcolleges.
 Het laatste project is een integratie van hoofstuk 3-6 van de hoorcolleges en is daarmee ook het zwaarste project uit dit portfolio.
 
