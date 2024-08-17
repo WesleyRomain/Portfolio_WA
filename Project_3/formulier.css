@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-    display: flex;                  /* Elementen in de container worden flex-items, default row. */
+    display: flex;                  /* Toepassen flexbox: elementen in de container worden flex-items, default row. */
     justify-content: space-between; /* Er wordt ruimte gemaakt tussen de flex-items. */
     align-items: flex-start; 
     box-sizing: border-box;
