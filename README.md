@@ -112,7 +112,7 @@ Bij invoervelden die moeten worden ingevuld is required-attribuut toegevoegd in 
 
 Gebruik gemaakt van flexbox om de pagina te ordenen.
 Ook gewerkt met box-sizing zodat margin, padding & border geintegreerd worden in grootte element.
-Tot slot zijn er een aantal animaties toegevoegd: vergroten van de buttons als er over gehooverd wordt met scale, transitie van de achtegrongkleur, een zelfgemaakte animatie,...
+Tot slot zijn er een aantal animaties toegevoegd: vergroten van de buttons als er over gehooverd wordt met scale, transitie van de achtegrongkleur, een zelfgemaakte animatie,... (CSS animaties).
 
 ### JS
 
