@@ -163,5 +163,7 @@ https://www.youtube.com/watch?v=37vxWr0WgQk
 
 https://g.co/gemini/share/efc1bda17429
 
+"https://github.com/wrkout/exercises.json/tree/master/exercises"
+
 
 
