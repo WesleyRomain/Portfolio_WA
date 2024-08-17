@@ -1,20 +1,20 @@
 console.log('Script loaded')
-//nagaan of script effectieef wordt geïmplementeerd
+// Nagaan of script effectieef wordt geïmplementeerd.
 
-//Medaillestand op 04/08/2024 omstreeks 18u30, we gaan even uit van een constante lijst (de Olympische spelen zijn geëindigd door noodweer)
+// Medaillestand einde Olympische spelen, lijst van objecten.
 const topMedailleWinnaars = [
-    {plaats: '1.', naam: 'China', goud: 18, zilver: 15,  brons: 10 },
-    {plaats: '2.', naam: 'Verenigde Staten', goud: 16, zilver: 25, brons: 25 },
-    {plaats: '3.', naam: 'Frankrijk', goud: 12, zilver: 14, brons: 16 },
-    {plaats: '4.', naam: 'Australië', goud: 12, zilver: 9, brons: 7},
-    {plaats: '5.', naam: 'Groot-Brittanië', goud: 10, zilver: 12, brons: 15}
+    {plaats: '1.', naam: 'Verenigde Staten', goud: 40, zilver: 44,  brons: 42 },
+    {plaats: '2.', naam: 'China', goud: 40, zilver: 27, brons: 24 },
+    {plaats: '3.', naam: 'Japan', goud: 20, zilver: 12, brons: 13 },
+    {plaats: '4.', naam: 'Australië', goud: 18, zilver: 19, brons: 16},
+    {plaats: '5.', naam: 'Frankrijk', goud: 16, zilver: 26, brons: 22}
 ]
 
-//element selecteren uit HTML
+// Element selecteren uit HTML.
 let lijstLanden = document.getElementById("landen-lijst")
 
-//functie maken voor de som van de medailles
-function som(...nummers){
+// Functie maken voor de som van de medailles.
+function som(...nummers){ // Gebruik van restoperator, weten niet hoeveel argumenten er zullen zijn.
     let totaal_medailles = 0
     for(let nummer of nummers){
         totaal_medailles += nummer
@@ -23,12 +23,12 @@ function som(...nummers){
 }
 
 for(let land of topMedailleWinnaars){
-    //destructureren van objecten
+    // Destructureren van objecten.
     let {plaats, naam, goud, zilver, brons} = land
-    //somfunctie toepassen
-    let totaal = som(goud, zilver, brons)
+    //somfunctie toepassen.
+    let totaal = som(...[goud, zilver, brons]) //gebruik van spreadoperator
    
-    //Template litearals
+    // Template litearals.
     let lijstItem=
     `<tr>
         <td>${plaats}</td>
@@ -40,6 +40,17 @@ for(let land of topMedailleWinnaars){
     </tr>`;
 
 
-    lijstLanden.innerHTML +=  lijstItem
+    lijstLanden.innerHTML +=  lijstItem // Elementen manipuleren.
 
+}
+
+const invoer = document.getElementById("invoer"); // Selectie van elementen en toewijzen aan een variabele.
+const paragraaf = document.getElementById("herhaling")
+
+paragraaf.innerHTML = localStorage.getItem("waarde"); // Weergave van laatste geüpdatete waarde in local storage.
+invoer.addEventListener("keyup", Weergave) // Eventlistner.
+
+function Weergave(){
+    localStorage.setItem("waarde", invoer.value); // Modificeren van de key in localStorage
+    paragraaf.innerHTML = localStorage.getItem("waarde"); 
 }

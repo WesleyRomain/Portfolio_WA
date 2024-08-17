@@ -39,6 +39,9 @@ Manipulatie van elementen (lijn 25-45).
 
 ### Bronnen
 
+ChatGPT gebruikt om de syntax van een Readme te begrijpen en toe te passen.
+Op het einde een kleine oefening gebaseerd op het youtubefilmpje in de bronnen.
+
 Cursus Web Essentials (Hoofdstukken: HTML, CSS, JS DOM)
 
 Cursus Web Advance 
@@ -53,7 +56,7 @@ https://www.bing.com/search?q=Medal+table+paris&qs=n&form=QBRE&sp=-1&lq=0&pq=med
 
 https://chatgpt.com/share/5a75de91-91bd-49d5-86fa-1dafcc18663a
 
-ChatGPT gebruikt om de syntax van een Readme te begrijpen en toe te passen.
+https://www.youtube.com/watch?v=fYTTUBa-lPc&t=570s
 
 
 ## Project 2: Rekensommetjes
@@ -136,6 +139,8 @@ https://www.w3schools.com/js/js_promise.asp
 https://www.w3schools.com/js/js_async.asp
 
 https://www.w3schools.com/css/css3_flexbox.asp
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
 https://copilot.microsoft.com/sl/jajlsm0EPgy
 
