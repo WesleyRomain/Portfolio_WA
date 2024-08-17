@@ -2,7 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
-    background-image: url("center.svg") ;
+    background-image: url("images/center.svg") ;
+    background-color: purple; /* Mocht de afbeelding niet werken*/
     background-size: cover; 
     background-position: center; 
     font-weight: bold;
