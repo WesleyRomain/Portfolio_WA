@@ -1,13 +1,13 @@
 body{
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif; /* Toevoegen Google Font */
     color: lightslategrey;
     font-size: 1.5em;
     text-align: center;
 }
 
 .container{
-    display: flex;                  /*Elementen in de container worden flex-items, default row*/
-    justify-content: space-between; /*Er wordt ruimte gemaakt tussen de flex-items*/
+    display: flex;                  /* Elementen in de container worden flex-items, default row. */
+    justify-content: space-between; /* Er wordt ruimte gemaakt tussen de flex-items. */
     align-items: flex-start; 
     box-sizing: border-box;
     padding: 20px;    
@@ -80,13 +80,13 @@ button:hover{
 
 }
 
-#submitbutton:hover{
+#submitbutton:hover{        /* Animatie toevoegen die hieronder is gedefinieerd.*/
     background-color: lightseagreen;
     animation-name: neerEnVergroot;
     animation-duration: 5s;
 }
 
-@keyframes neerEnVergroot{
+@keyframes neerEnVergroot{ /* Zelf een animatie maken.*/
     from{
         transform: translateY(0);
     }
