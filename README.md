@@ -21,7 +21,7 @@ Een image toegevoegd. Beneden ook een invoerveld waar ik localStorage op zal toe
 
 ### CSS
 
-In mijn CSS heb ik twee "moeilijkheden" toegevoegd:
+In mijn CSS heb ik drie "moeilijkheden" toegevoegd:
 1. Het gebruik van een Google Font.
 2. Een achtergrondafbeelding (van het web gehaald, zie ook HTML).
 3. Gebruik van een SVG.
