@@ -3,9 +3,9 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     color: #f2cd92;
-    background-image: url(images/wiskunde.jpg);
-    background-size: cover;
-    
+    background-image: url(images/wiskunde.jpg); 
+    background-color: white; /* Mocht de afbeelding niet werken. */
+    background-size: cover; /* Background covert hele pagina. */
 }
 h1{
     font-size: 80px;
