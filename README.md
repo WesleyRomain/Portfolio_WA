@@ -38,7 +38,7 @@ Destructurering van mijn lijst objecten (lijn 26): per land een nieuw object aan
 
 Spread operator (lijn 28).
 
-Template literals(lijn 33-38): bij het toevoegen van nieuwe cellen in mijn rij .
+Template literals (lijn 33-38): bij het toevoegen van nieuwe cellen in mijn rij .
 
 Manipulatie van elementen (lijn 41, lijn 48): voor elk land wordt een rij toegevoegd aan de tabel (HTML-code wordt bewerkt).
 
