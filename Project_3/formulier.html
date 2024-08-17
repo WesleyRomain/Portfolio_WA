@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "formulier.css"></link>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel = "stylesheet" href = "formulier.css"></link> <!--Koppelen CSS aan HTML-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Google font toegevoegd.-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Inschrijvingsformulier</title>
 </head>
 <body>
     <h1  id = "hulpnodig">Inschrijvingsformulier Fitnesslessen<br> TOTALFIT Fitness</h1>
-    <div class = "container">
+    <div class = "container">  <!--Toevoegen van div container om flexbox toe te passen: alle directe children worden flex items (form & image)-->
         <form id = "formulier">
-            <h2>Persoonsgegevens</h2>
+            <h2>Persoonsgegevens</h2> <!--formulier = flexitem--> <!--Eerste deel: persoonsgegevens-->
                 <label>Voornaam:</label>
-                <input type = "text" maxlength = "30" placeholder=" vb. Jan" required>
+                <input type = "text" maxlength = "30" placeholder=" vb. Jan" required> <!--Placholders plaatsen + verplichte velden (validatie formulier)-->
                 <label>Achternaam:</label>
                 <input type = "text" maxlength = "30" placeholder="vb. Modaal" required><br>
                 <label>Geboortedatum:</label>
                 <input type = "date" required>
                 <label>Gender:</label>
-                <input id = "vrouw" type = "radio" name = "gender" value = "v">
+                <input id = "vrouw" type = "radio" name = "gender" value = "v"> <!--Name koppelt de buttons aan elkaar-->
                 <label for = "vrouw">Vrouw</label>
                 <input id = "man" type = "radio" name = "gender" value = "m">
                 <label for = "man">Man</label>
@@ -43,21 +43,21 @@
                 <input type = "tel" placeholder="vb. 02 123 456">
                 <label>GSM-nr: </label>
                 <input type = "tel" placeholder="vb. 0495 123 456" required>
-            <h2>Levensstijl</h2>
+            <h2>Levensstijl</h2>                                   <!--Tweede deel: levensstijl-->
                 <label>Gewicht (kg) :</label>
                 <input type = "text" id = "gewicht" placeholder = "vb. 80" required>
                 <label>Lengte (m): </label>
                 <input type = "text" id = "lengte" placeholder = "vb. 1.80" required>
-                <button type = "button" onclick = "berekenUitHTML()">Bereken BMI</button><br>
+                <button type = "button" onclick = "berekenUitHTML()">Bereken BMI</button><br> <!--Event koppelen aan element-->
                 <label id = "BMI">BMI = </label><br>
                 <label>Ik eet...</label>
-                <select name = "voedingspatroon">
+                <select name = "voedingspatroon"> <!--Selectiemenu toevoegen-->
                     <option value = "o">Ongezond</option>
                     <option value = "e">Evenwichtig</option>
                     <option value = "mg">Gezond</option>
                 </select><br>
                 <label>Ik sport...</label>
-                <select name = "sportpatroon">
+                <select name = "sportpatroon">     <!--Selectiemenu toevoegen-->
                     <option value = "n">Nooit</option>
                     <option value = "s">Soms</option>
                     <option value = "r">Regelmatig</option>
@@ -65,18 +65,18 @@
                 </select><br>
                 <label>Mijn favoriete oefening is...</label>
                 <input type = "text" id = "naamOefening" placeholder="Geef je favoriete oefening">
-                <button type = "button" onclick = "dataOphalen()">Toon de instructies van mijn favoriete oefening</button><br>
+                <button type = "button" onclick = "dataOphalen()">Toon de instructies van mijn favoriete oefening</button><br> <!--Event koppelen aan element-->
                 <p id="uitlegOefening"></p>
-            <h2>Motivatie</h2>
+            <h2>Motivatie</h2>                                      <!--Derde deel: Motivatie-->
             <p>Hoeveel zin heb je in het fitnessprogramma? Typ: "Heel veel zin" als je gemotiveerd bent!</p>
             <input id = "motivatie" type = "text" placeholder="vb. Heel veel zin" required>
-            <button type ="button" onclick="checkMotivatie()">Check mijn motivatie</button>
+            <button type ="button" onclick="checkMotivatie()">Check mijn motivatie</button> <!--Event koppelen aan element-->
             <p>Ter verificatie dat je een echt persoon bent: Wat is de som van 5 + 3?</p>
             <input type = "text" id="verificatie" placeholder="vb. 10" required>
-            <button type = "button" onclick = "controleVerificatie()">Check of de som juist is.</button><br>
-            <input type ="submit" value = "DOORSTUREN NAAR TOTALFIT" id = "submitbutton" onclick="formulierVerstuurd()">
+            <button type = "button" onclick = "controleVerificatie()">Check of de som juist is.</button><br> <!--Event koppelen aan element-->
+            <input type ="submit" value = "DOORSTUREN NAAR TOTALFIT" id = "submitbutton" onclick="formulierVerstuurd()"> <!--Submitten van formulier-->
         </form>
-        <img src ="images/fitness.jpg" alt = "Een mooi lichaam">
-    <script src="formulier.js"></script>
+        <img src ="images/fitness.jpg" alt = "Een mooi lichaam"> <!--img = flexitem-->
+    <script src="formulier.js"></script> <!--Koppelen script aan HTML-->
 </body>
 </html>

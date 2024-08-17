@@ -105,6 +105,8 @@ Een formulier om je aan te melden voor een fitnessprogramma.
 ### HTML
 
 Gebruik gemaakt van form-element en verwanten.
+Het formulier bevat geen actie (de gegevens worden niet verwerkt).
+Bij invoervelden die moeten worden ingevuld is required-attribuut toegevoegd in HTML (formuliervalidatie).
 
 ### CSS
 
@@ -116,7 +118,7 @@ Tot slot zijn er een aantal animaties toegevoegd: vergroten van de buttons als e
 
 Callback-functie (1: WeergeefBMI lijn 3-5): weergeefBMI (=callbackfunctie) die toegepast wordt in de parameters van bmiBerekenen (lijn 7-10).
 
-Callback-functie toegepast (3: hulpNodig lijn 24): hulpNodig (=callbackfunctie) die toegepast wordt in de parameters van setTimeout. Na 10 seconde verschijnt er een link bovenaan het scherm.
+Callback-functie toegepast (2: hulpNodig lijn 19-22): hulpNodig (=callbackfunctie) die toegepast wordt in de parameters van setTimeout (lijn 24). Na 10 seconde verschijnt er een link bovenaan het scherm.
 
 Promise + consumer methods (in functie: Checkmotivatie lijn 26-51): Persoon zal "Heel veel motivatie" of iets anders ingeven om te bewijzen dat hij/zij/x er zin in heeft.
 Bij elke situatie een andere zin onderaan de pagina (.then consumer methods).
@@ -125,7 +127,7 @@ Await/Async (lijn 53-65): functie zal controleren of de gebruiker een echt mens 
 
 Self-executing function (functie: zelfUitvoerend lijn 67-73):vrij eenvoudig gehouden, naar analogie met de cursus. De functie voert zichzelf uit na 10 seconden. Geeft popup met de melding dat er een link aanwezig is voor hulp.
 
-Event aan element koppelen (lijn HTML: 51,68,73,76 & 77 ): bij onclick() voert er een welbepaalde functie zichzelf uit.
+Event aan element koppelen (lijn HTML: 51,68,73,76 & 77 ): bij onclick voert er een welbepaalde functie zichzelf uit.
 
 Fetch + JSON manipulatie (lijn 79-109): Data wordt opgehaald van een externe bron met allemaal fitnessoefeningen. Nadien wordt data gemanipuleerd en gebruikt in de webpagina.
 
