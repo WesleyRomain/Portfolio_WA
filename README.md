@@ -73,7 +73,6 @@ https://www.youtube.com/watch?v=fYTTUBa-lPc&t=570s
 ## Project 2: Rekensommetjes
 
 Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
-
 Het hoofdstuk was ook vrij kort, dus ik heb een "korte" oefening gemaakt.
 
 ### HTML
@@ -82,13 +81,13 @@ Gewerkt met span om textcontent in de elementen te brengen.
 
 ### CSS
 
-Background toegevoegd, voor de rest niets speciaal.
+Background toegevoegd.
 
 ### JS
 
-Eerste drie arrow functies gedeclareerd zonder body syntax: optellen, aftrekken, vermenigvuldigen (lijn 3-5). Ook default waarden meegegeven indien geen getal wordt opgegeven.
+Definiëren arrowfuncties (zonder body, lijn 4-6 ).
 
-Laatste arrowfunctie gedeclareerd mét bodysyntax (lijn 6-14). Er kan immers een fout optreden indien gedeeld wordt door 0.
+Definiëren arrowfunctie (met body, lijn 6-14). Er kan immers een fout optreden indien gedeeld wordt door 0.
 
 ### Bronnen
 
@@ -98,7 +97,7 @@ Cursus Web Advanced (Hoofdstuk: Arrowfunctions, Default parameters)
 
 Cursus Programming Essentials I
 
-https://www.bing.com/images/search?view=detailV2&ccid=XAJxMze%2f&id=8CE395B34202640CD6B13EA89668ADCE238C0D89&thid=OIP.XAJxMze_Rs9TgzIVCKTt_wHaEK&mediaurl=https%3a%2f%2fslidechef.net%2fwp-content%2fuploads%2f2021%2f10%2fFree-Google-Slides-Maths-Background.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5c02713337bf46cf5383321508a4edff%3frik%3diQ2MI86taJaoPg%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=background+maths&simid=608052110175529787&FORM=IRPRST&ck=CAC28B2150CB85AA5A0F291A44ECDEC5&selectedIndex=79&itb=0&ajaxhist=0&ajaxserp=0
+https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg
 
 ## Project 3: Formulier
 
