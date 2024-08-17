@@ -98,6 +98,7 @@ Gebruik gemaakt van form-element en verwanten.
 
 Gebruik gemaakt van flexbox om de pagina te ordenen.
 Ook gewerkt met box-sizing zodat margin, padding & border geintegreerd worden in grootte element.
+Tot slot zijn er een aantal animaties toegevoegd: vergroten van de buttons als er over gehooverd wordt met Scale, transitie van de achtegrongkleur, een zelfgemaakte animatie,...
 
 ### JS
 
@@ -122,7 +123,7 @@ Ik heb voor de styling en JS gebruik gemaakt van Copilot, Gemini en ChatGPT om m
 
 Cursus Web Essentials (Hoofdstukken: HTML, CSS, flexbox, boxes en boxmodel en JS DOM)
 
-Cursus Web Advanced (Hoofdsstukken: Callbacks, Promises, Async, Await, Fetch)
+Cursus Web Advanced (Hoofdstukken: Callbacks, Promises, Async, Await, Fetch, CSS animaties)
 
 Cursus Programming Essentials I
 

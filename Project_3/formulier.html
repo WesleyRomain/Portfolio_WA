@@ -15,9 +15,9 @@
         <form id = "formulier">
             <h2>Persoonsgegevens</h2>
                 <label>Voornaam:</label>
-                <input type = "text" maxlength = "30" required>
+                <input type = "text" maxlength = "30" placeholder=" vb. Jan" required>
                 <label>Achternaam:</label>
-                <input type = "text" maxlength = "30" required><br>
+                <input type = "text" maxlength = "30" placeholder="vb. Modaal" required><br>
                 <label>Geboortedatum:</label>
                 <input type = "date" required>
                 <label>Gender:</label>
@@ -28,26 +28,26 @@
                 <input id = "x" type = "radio" name = "gender" value = "x">
                 <label for = "x">X</label><br>
                 <label>Straat: </label>
-                <input type = "text" required>
+                <input type = "text" placeholder="vb. Grote Markt" required>
                 <label>Huisnummer: </label>
-                <input type ="text" required>
+                <input type ="text" placeholder="vb. 1" required>
                 <label>Postcode: </label>
-                <input type = "text" required>
+                <input type = "text" placeholder="vb. 1000" required>
                 <label>Plaats: </label>
-                <input type = "text" required>
+                <input type = "text" placeholder="vb. Brussel" required>
                 <label>Land: </label>
-                <input type = "text" required><br>
+                <input type = "text" placeholder="vb. België" required><br>
                 <label>E-mail:</label>
-                <input type = "email" required>
+                <input type = "email" placheholder = "vb. janmodaal@extensie.be" required> <!--Placeholder werkt niet-->
                 <label>Telefoon: </label>
-                <input type = "tel">
+                <input type = "tel" placeholder="vb. 02 123 456">
                 <label>GSM-nr: </label>
-                <input type = "tel">
+                <input type = "tel" placeholder="vb. 0495 123 456" required>
             <h2>Levensstijl</h2>
                 <label>Gewicht (kg) :</label>
-                <input type = "text" id = "gewicht" placeholder = "Geef je gewicht in kg (Voorbeeld: 90)" required>
+                <input type = "text" id = "gewicht" placeholder = "vb. 80" required>
                 <label>Lengte (m): </label>
-                <input type = "text" id = "lengte" placeholder = "Geef je lengte in meter (Voorbeeld: 1.80)" required>
+                <input type = "text" id = "lengte" placeholder = "vb. 1.80" required>
                 <button type = "button" onclick = "berekenUitHTML()">Bereken BMI</button><br>
                 <label id = "BMI">BMI = </label><br>
                 <label>Ik eet...</label>
@@ -69,10 +69,10 @@
                 <p id="uitlegOefening"></p>
             <h2>Motivatie</h2>
             <p>Hoeveel zin heb je in het fitnessprogramma? Typ: "Heel veel zin" als je gemotiveerd bent!</p>
-            <input id = "motivatie" type = "text" required>
+            <input id = "motivatie" type = "text" placeholder="vb. Heel veel zin" required>
             <button type ="button" onclick="checkMotivatie()">Check mijn motivatie</button>
             <p>Ter verificatie dat je een echt persoon bent: Wat is de som van 5 + 3?</p>
-            <input type = "text" id="verificatie"  required>
+            <input type = "text" id="verificatie" placeholder="vb. 10" required>
             <button type = "button" onclick = "controleVerificatie()">Check of de som juist is.</button><br>
             <input type ="submit" value = "DOORSTUREN NAAR TOTALFIT" id = "submitbutton" onclick="formulierVerstuurd()">
         </form>
