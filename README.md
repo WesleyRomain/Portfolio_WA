@@ -72,7 +72,7 @@ https://www.youtube.com/watch?v=fYTTUBa-lPc&t=570s
 
 ## Project 2: Rekensommetjes
 
-Een zeer eenvoudige oefeningen die de uitkomst van een aantal rekensommetjes uitrekent.
+Een zeer eenvoudige project die de uitkomst van een aantal rekensommetjes uitrekent.
 
 ### HTML
 
